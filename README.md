@@ -1,12 +1,14 @@
-![logo](lecture/static/pfp_logo.png)
+![logo](lecture/static/logo.png)
 
 ## "What's in this repository?"
 
-This repository contains the course contents for the "Python for Psychologists" lectures conducted within the Psychology Master programme at Goethe-University Frankfurt.
+This repository contains a colletion of materials for a course on digital literacy in higher education developed as part of the DiLER project of the Goethe-University Frankfurt.
 
-We've tried to document the various aspects of this course with a whole bunch of README files, so feel free to jump around and check things out
+DiLER or Digital Literacy for Empirical Research  aims to provide an Open Educational Resource using multimodal competence-oriented content and examination, where the overall goal is to create a framework for providing, bundling, and introducing the benefits of cost-free, open resources for promoting research-based learning in higher eductaion, with a focus on the core competency of "digital literacy" in the empirical sciences.
+
+This course allthough limited in scope will aim to demonstrate how such a course centered around digital literacy may look like.
 
 
-## "I have some questions..."
+## "If you got questions:"
 
 [Open an issue]() on this repository and someone will try and get back to you as soon as possible!
