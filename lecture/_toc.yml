@@ -1,6 +1,7 @@
 root: index
 format: jb-book
 chapters:
+- file: index
 - file: dei
 - file: overview
 - file: setup
@@ -10,11 +11,29 @@ chapters:
   - file: introduction/introduction_1.md
   - file: introduction/introduction_2.md
     sections:
-    - file: introduction/intro_to_shell.ipynb
-  - file: introduction/introduction_3.md
-  - file: introduction/introduction_4.md
-    sections:
-    - file: introduction/intro_jupyter.ipynb
-- file: questionnaires
+    - file: introduction/digital_literacy.ipynb
+  - file: introduction/science_digital_age.md
+- file: content/skills.md
+  sections:
+  - file: content/command_line.md
+    - file: content/intro_to_shell.ipynb
+    - file: content/intro_to_git_and_github.ipynb
+  - file: content/computing_environments.md
+  - file: content/jupyter_notebooks_in_edu.md
+    - file: content/intro_jupyter_I.ipynb
+  - file: content/intro_python_I.md
+    - file: content/intro_python_I.ipynb
+  - file: content/intro_python_II.md
+    - file: content/intro_python_II.ipynb
+  - file: content/intro_python_III.md
+    - file: content/intro_python_III.ipynb
+  - file: content/results_communication.md
+- file: advanced/advanced.md
+  sections:
+    - file: python_numpy.ipynb
+    - file: python_scipy.ipynb
+    - file: python_scikit.ipynb
+    - file: python_visualization_for_data.ipynb
+
 - file: break
 - file: CoC

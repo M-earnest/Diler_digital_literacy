@@ -2,23 +2,16 @@
 
 There are a few things you need to get working on your machine in order to follow this course. However, don't worry as it's all gonna be [open source](), won't require a lot of storage and will be explained in detail.
 
-Some parts and section of this course will be executable via `cloud computing` (click on the small rocket at the top right of the webpage to start [binder](https://mybinder.org/)), which mainly serves the puprose of making the lessons nice and easy to follow in an interactive manner. Although in general getting `Python` & friends to work reliably on your machine is going to be very beneficial. This holds true for the course and especially beyond. The following tools focusing open and reproducible (neuro-/data) science) will therefore not only be necessary for this course, but are curated in a way that you can build your "everyday" research workflow around them. This even applies if you won't continue with `python` (I certainly hope you do) and instead work with `R` (of course also cool), `matlab` (weeeeeeeell...) or what have you. 
+Some parts and section of this course will be executable via `cloud computing` (click on the small rocket at the top right of the webpage to start [binder](https://mybinder.org/)), which mainly serves the puprose of making the lessons nice and easy to follow in an interactive manner. Although in general getting `Python` & friends to work reliably on your machine is going to be very beneficial. This holds true for the course and especially beyond. The following tools focusing open and reproducible (neuro-/data) science) will therefore not only be necessary for this course, but are curated in a way that you can build your "everyday" research workflow around them. This even applies if you won't continue with `python` (I certainly hope you do) and instead work with `R` (of course also cool), `matlab` (weeeeeeeell...) or what have you.
 
 You'll find the (hopefully) comprehensive set of install instructions below. While not all of them might be totally necessary for the course, they all will help you a great deal going further and are especially useful/needed if we have to hold the course virtually due to the COVID-19 pandemic.  
-
-Don't worry, you got this!
-
-![logo](https://media1.tenor.com/images/f72cb542d6b3e3c3421889e0a3d9628d/tenor.gif?itemid=4533805)\
-<sub><sup><sub><sup>https://media1.tenor.com/images/f72cb542d6b3e3c3421889e0a3d9628d/tenor.gif?itemid=4533805</sup></sub></sup></sub>
 
 
 ## General things
 
 There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages you should install, described below):
 
-1. You must have administrator access to your computer (i.e., you must be able to install things yourself without requesting IT approval).
-1. You should have at least 20 GB of free disk space on your computer (but we would recommend more, to be safe).
-1. If you are using Windows you must be using Windows 10/11; Windows 7 and 8 will not be sufficient for this course.
+- stub for listing e.g. necessary disk space, processing power, operating system etc.
 
 If you foresee any of these being a problem please reach out to one of the instructors and enquire what steps you can take to ensure your setup is ready for the course.
 
@@ -30,11 +23,10 @@ To get the most out of the course, we ask that you arrive with the following sof
 - (A version control system: [`Git`](https://git-scm.com/))
 - A remote-capable text editor: [`VSCode`](https://code.visualstudio.com/)
 - `Python 3` via [`Miniconda`](https://docs.conda.io/en/latest/miniconda.html)
-- (A [`GitHub`](https://github.com/) account)
-- [`Discord`](https://discord.com/) (for communication purposes)
-- A `modern web-browser`
+- A [`GitHub`](https://github.com/) account
 
-If you already have all of the above software tools/packages installed (what are you even doing here?), or are confident you’ll be able to install them by the time the course starts, you can jump straight to [checking your install](#checking-your-install).
+
+If you already have all of the above software tools/packages installed (what are you even doing here?), or are confident you’ll be able to install them by the time the course starts.
 The rest of this page provides more detail on installation procedures for each of the above elements, with separate instructions for each of the three major operating systems (`Windows`, `Mac OS`, and `Linux`).
 
 ### Some quick general notes on instructions
@@ -51,40 +43,19 @@ The rest of this page provides more detail on installation procedures for each o
 Select the tab that corresponds to your operating system and follow the instructions therein.
 
 ```{tabbed} Windows
-**Windows Subsystem for Linux (WSL)**
 
-1. Search for `Windows Powershell` in your applications; right click and select `Run as administrator`.
-   Select `Yes` on the prompt that appears asking if you want to allow the app to make changes to your device.
-2. Type the following into the Powershell and then press `Enter`:
-
-        Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-
-3. Press `Enter` again when prompted to reboot your computer.
-4. Once your computer has rebooted, open the Microsoft Store and search for "Ubuntu."
-   Install the program labelled "Ubuntu 18.04" (not "Ubuntu 16.04" or "Ubuntu") by clicking the tile, pressing `Get`, and then `Install`.
-5. Search for and open Ubuntu from your applications.
-   There will be a slight delay (of a few minutes) while it finishes installing.
-6. You will be prompted to `Enter new UNIX username`.
-   You can use any combination of alphanumeric characters here for your username, but a good choice is `<first_initial><last_name>` (e.g., `jsmith` for John Smith).
-   You will then be prompted to enter a new password.
-   (Choose something easy to remember as you will find yourself using it frequently.)
-7. Right click on the top bar of the Ubuntu application and select "Properties".
-   Under the "Options" tab, under the "Edit Options" heading, make sure the box reading "Use Ctrl+Shift+C/V as Copy/Paste" is checked.
-   Under the "Terminal" tab, under the "Cursor Shape" heading, make sure the box reading "Vertical Bar" is checked.
-   Press "Okay" to save these settings and then exit the application.
-
-(The above step-by-step WSL instructions are distilled from [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and [here](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro).
-If you have questions during the installation procedure those resources may have answers!)
-
-From this point on whenever the instructions specify to "open a terminal" please assume you are supposed to open the Ubuntu application.
-
-**Bash shell**
-
-You already have it, now that you’ve installed the WSL!
 
 **Git**
 
-You already have it, now that you’ve installed the WSL!
+Download the respective version for your system from the [official website](https://git-scm.com) and run the .exe file. Now you should be good to go.
+As Git can be quite confusing for new users you may also want to additional install a GUI (graphical user interface) that makes it somewhat easier to interact and illustrate what git is actually doing/supposed to do, such as  [Gitkraken](https://www.gitkraken.com/).
+
+
+**Python**
+
+1. Download and execute the .exe file from the [official website](https://docs.conda.io/en/latest/miniconda.html)
+1. An installation window will pop up, go ahead and click through it and install into the suggested default directory.
+
 
 **VSCode**
 
@@ -94,49 +65,21 @@ You already have it, now that you’ve installed the WSL!
 
 **VSCode extensions**
 
-1. Open the Ubuntu application.
-1. Type `code .` into the terminal and press `Enter`.
-   You should see a message reading "Installing VS Code Server" and then a new windows will open up.
+1. Open VSCode
 1. Press `Ctrl+Shift+P` in the new window that opens and type "Extensions: Install extensions" into the search bar that appears at the top of the screen.
    Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads "Extensions: Install extensions").
 1. A new panel should appear on the left-hand side of the screen with a search bar.
    Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
       - Python (n.b., you will need to reload VSCode after installing this)
-      - Live Share (n.b., you may need to press "Ctrl/Cmd+Shift+P" and type "install extensions" again after installing this)
-      - Live Share Extension Pack
-      - Docker
-      - Remote - WSL
-
-**Python**
-
-1. Open a new terminal and type the following lines (separately) into the terminal, pressing `Enter` after each one:
-
-        wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-        bash Miniconda3-latest-Linux-x86_64.sh
-
-1. A license agreement will be displayed and the bottom of the terminal will read `--More--`.
-   Press `Enter` or the space bar until you are prompted with "Do you accept the license terms? [yes|no]."
-   Type `yes` and then press `Enter`
-1. The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`).
-   Leave this default and press `Enter`.
-1. When you are asked "Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no]," type `yes` and press `Enter`.
-   Exit the terminal once the installation has finished.
-1. Re-open the Ubuntu application.
-   Type `which python` into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
-   - If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
-     If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.
-1. Type the following to remove the installation script that was downloaded:
-
-        rm ./Miniconda3-latest-Linux-x86_64.sh
 
 
-**Python packages**
+**Bash shell**
 
-Open a terminal and type the following commands:
+To use bash we'll be utilizing VSCode as that is the fastest way to implement a working bash version on windows. Please open VSCode and do the following:
 
-        conda config --append channels conda-forge
-        conda config --set channel_priority strict
-        conda install -y flake8 ipython jupyter jupyterlab matplotlib numpy pandas scipy seaborn pingouin statsmodels plotly
+- has to be evaluated, coming soon
+
+
 ```
 
 ```{tabbed} Linux
@@ -169,9 +112,6 @@ If you are prompted to install it follow the instructions on-screen to do so.
 1. A new panel should appear on the left-hand side of the screen with a search bar.
    Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
       - Python (n.b., you will need to reload VSCode after installing this)
-      - Live Share (n.b., you may need to press "Ctrl/Cmd+Shift+P" and type "install extensions" again after installing this)
-      - Live Share Extension Pack
-      - Docker
 
 **Python**
 
@@ -196,13 +136,6 @@ If you are prompted to install it follow the instructions on-screen to do so.
 
         rm ./Miniconda3-latest-Linux-x86_64.sh
 
-**Python packages**
-
-Open a terminal and type the following commands:
-
-        conda config --append channels conda-forge
-        conda config --set channel_priority strict
-        conda install -y flake8 ipython jupyter jupyterlab matplotlib numpy pandas scipy seaborn pingouin statsmodels plotly
 
 ```
 
@@ -223,7 +156,7 @@ To set the default to bash, type `chsh -s /bin/bash` in the terminal, enter your
 
 You may already have it!
 Try opening a terminal and typing `git --version`.
-If you do not see something like “git version X.XX.X” printed out, then follow these steps: 
+If you do not see something like “git version X.XX.X” printed out, then follow these steps:
 
 1. Follow [this link](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect) to automatically download an installer.
 1. Double click the downloaded file (`git-2.23.0-intel-universal-mavericks.dmg`) and then double click the `git-2.23.0-intel-universal-mavericks.pkg` icon inside the dmg that is opened.
@@ -245,9 +178,7 @@ If you do not see something like “git version X.XX.X” printed out, then foll
 1. A new panel should appear on the left-hand side of the screen with a search bar.
    Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
       - Python (n.b., you will need to reload VSCode after installing this)
-      - Live Share (n.b., you may need to press "Ctrl/Cmd+Shift+P" and type "install extensions" again after installing this)
-      - Live Share Extension Pack
-      - Docker
+
 
 **Python**
 
@@ -273,13 +204,7 @@ If you do not see something like “git version X.XX.X” printed out, then foll
         rm ./Miniconda3-latest-MacOSX-x86_64.sh
 
 
-**Python packages**
 
-Open a terminal and type the following commands:
-
-        conda config --append channels conda-forge
-        conda config --set channel_priority strict
-        conda install -y flake8 ipython jupyter jupyterlab matplotlib numpy pandas scipy seaborn pingouin statsmodels plotly
 ```
 
 **Note**: If the instructions aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the Discord channel with the exact problems you're having.
@@ -291,32 +216,7 @@ If they're unable to help via `Discord`, you may be directed to attend one of th
 Go to https://github.com/join/ and follow the on-screen instructions to create an account.
 It is a good idea to associate this with your university e-mail (if you have one) as this will entitle you to sign up for the [GitHub Student Developer Pack](https://education.github.com/pack) which comes with some nice free bonuses.
 
-### Discord
 
-Go to https://discord.com/ and download and install Discord. Please note, that you can also use Discord through your browser if you don't want to download it. This will be the main channel of communication for the course.
-You will be invited to the course channel via e-mail.
-
-### Modern web browser
-
-Install Firefox or Chrome.
-(Safari will also work.)
-Microsoft Edge is not modern, despite what Microsoft might try and otherwise tell you.
-
-## Checking your install
-
-Now that you've installed everything it's time to check that everything works as expected!
-Type the following into your terminal:
-
-    bash <( curl -s https://raw.githubusercontent.com/M-earnest/Python_for_Psychologists_Winter2022/main/check_install.sh)
-
-If you installed everything correctly you should see a message informing you as such.
-If any problems were detected you should receive some brief instructions on what is wrong with potential suggestions on how to remedy it.
-If you followed these instructions step-by-step and cannot resolve the issue please contact one of the course instructors for more help.
-
-Yeah, you did! Great job!
-
-![logo](https://media1.tenor.com/images/d5ebabf248130ec3842ed3b8627fd4f2/tenor.gif?itemid=4770158)\
-<sub><sup><sub><sup>https://media1.tenor.com/images/d5ebabf248130ec3842ed3b8627fd4f2/tenor.gif?itemid=4770158</sup></sub></sup></sub>
 
 ## Getting the course content
 
@@ -326,15 +226,15 @@ Now that you have installed the required software (or not) to follow the course,
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" alt="conda logo" width="300"/>\
 <sub><sup><sub><sup>https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg</sup></sub></sup></sub>
 
-By installing `Python` on your system (i.e. specifically `Conda`) and setting up the appropriate environment, you will be able to open all the `Jupyter Notebooks` and go through the whole content of the course locally. 
+By installing `Python` on your system (i.e. specifically `Conda`) and setting up the appropriate environment, you will be able to open all the `Jupyter Notebooks` and go through the whole content of the course locally.
 
 To get things up and running, please follow these steps:
 
-1. Download the [`environment.yml`](https://raw.githubusercontent.com/M-earnest/Python_for_Psychologists_Winter2022/main/environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
-2. Open up a conda terminal (or any other terminal), and create a new conda environment with the following command: `conda env create -f /path/to/file/environment.yml` - For example ``conda env create -f ~/Downloads/environment.yml`
-3. Download the notebooks in this repository via [this link](https://github.com/M-earnest/Python_for_Psychologists_Winter2022/archive/refs/heads/main.zip) and unzip them to your preferred location, e.g. `Desktop/Python_for_Psychologists_Winter2022`.
-4. Next, open up a `conda terminal` (or any other `terminal`), activate the `conda environment` with `conda activate pfp_2022` (or on older `conda environment` with `source activate pfp_2022` for `mac` and `linux` and `activate pfp_2022` for `windows`).
-5. Finally, via the `terminal`, move to the folder where you've put all the unzipped content of this workshop, e.g. with the command `cd ~/Desktop/Python_for_Psychologists_Winter2022` and run the command `jupyter notebook`. If the `notebook server` isn't automatically opened in a new browser window, please copy-paste either the `http://127.0.0.1:8888/...` or the `http://localhost:8888/...` path into a new browser window and press `Enter`. You should now see the `jupyter notebook server` (looking like a file browser and displaying the content of the directory). 
+1. Download the [`environment.yml`](environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
+2. Open up a conda terminal (or a VSCode python terminal), and create a new conda environment with the following command: `conda env create -f /path/to/file/environment.yml` - For example ``conda env create -f ~/Downloads/environment.yml`
+3. Download the notebooks in this repository via [this link](main.zip) and unzip them to your preferred location, e.g. `Desktop/digital_literacy_Winter2022`.
+4. Next, open up a `conda terminal` (or any other `terminal`), activate the `conda environment` with `conda activate x` (or on older `conda environment` with `source activate x` for `mac` and `linux` and `activate x` for `windows`).
+5. Finally, via the `terminal`, move to the folder where you've put all the unzipped content of this workshop, e.g. with the command `cd ~/Desktop/x` and run the command `jupyter notebook`. If the `notebook server` isn't automatically opened in a new browser window, please copy-paste either the `http://127.0.0.1:8888/...` or the `http://localhost:8888/...` path into a new browser window and press `Enter`. You should now see the `jupyter notebook server` (looking like a file browser and displaying the content of the directory). 
 ```
 
 ```{tabbed} Cloud via Mybinder
@@ -356,4 +256,3 @@ Once you reached this point, you should be ready the enter the matrix and follow
 
 ![logo](https://media1.tenor.com/images/e5c21d98f56c4af119b4e14b6a9df893/tenor.gif?itemid=4011236)\
 <sub><sup><sub><sup>https://media1.tenor.com/images/e5c21d98f56c4af119b4e14b6a9df893/tenor.gif?itemid=4011236</sup></sub></sup></sub>
-
