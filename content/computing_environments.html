@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introduction IV &#8212; Winter - 2022</title>
+    <title>Computing environments &#8212; Winter - 2022</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -164,7 +164,7 @@
   <ul class="current">
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="command_line.html">
-     Introduction III
+     Command-line-interfaces &amp; BASH
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
     <label for="toctree-checkbox-4">
@@ -186,7 +186,7 @@
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     Introduction IV
+     Computing environments
     </a>
    </li>
    <li class="toctree-l2 has-children">
@@ -210,7 +210,12 @@
      <i class="fas fa-chevron-down">
      </i>
     </label>
-    <ul class="simple">
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="intro_python_nb_I.html">
+       Introduction V - Introduction to Python - I
+      </a>
+     </li>
     </ul>
    </li>
    <li class="toctree-l2 has-children">
@@ -222,7 +227,12 @@
      <i class="fas fa-chevron-down">
      </i>
     </label>
-    <ul class="simple">
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="intro_python_nb_II.html">
+       Introduction VI - Introduction to Python II
+      </a>
+     </li>
     </ul>
    </li>
    <li class="toctree-l2 has-children">
@@ -234,7 +244,12 @@
      <i class="fas fa-chevron-down">
      </i>
     </label>
-    <ul class="simple">
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="intro_python_nb_III.html">
+       Introduction VII - Introduction to Python III
+      </a>
+     </li>
     </ul>
    </li>
    <li class="toctree-l2">
@@ -381,7 +396,7 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#computing-environments">
+    <a class="reference internal nav-link" href="#id1">
      Computing environments
     </a>
     <ul class="nav section-nav flex-column">
@@ -419,7 +434,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Introduction IV</h1>
+                <h1>Computing environments</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -435,7 +450,7 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#computing-environments">
+    <a class="reference internal nav-link" href="#id1">
      Computing environments
     </a>
     <ul class="nav section-nav flex-column">
@@ -472,14 +487,14 @@
             
               <div>
                 
-  <div class="section" id="introduction-iv">
-<h1>Introduction IV<a class="headerlink" href="#introduction-iv" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="computing-environments">
+<h1>Computing environments<a class="headerlink" href="#computing-environments" title="Permalink to this headline">¶</a></h1>
 <p>Within the third session we’ll continue with the sections from last week, that is exploring this thing called “the computer” a bit more, specifically one aspect that might seem adjacent to utilizing <code class="docutils literal notranslate"><span class="pre">python</span></code> within research workflows but is actually a crucial component: <code class="docutils literal notranslate"><span class="pre">computing</span> <span class="pre">environments</span></code>. Don’t worry: this will also entail hands-on programming, just not directly in <code class="docutils literal notranslate"><span class="pre">python</span></code>. The things covered in this session will introduce central concepts for our subsequent endeavors. For example, also the ones we will cover in the next session, that is <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebooks</span></code> as a prerequisite for our <code class="docutils literal notranslate"><span class="pre">python</span></code> endeavors.</p>
 <div class="section" id="topics">
 <h2>Topics 💡👨🏻‍🏫<a class="headerlink" href="#topics" title="Permalink to this headline">¶</a></h2>
 <p>In the following you’ll find the <code class="docutils literal notranslate"><span class="pre">objectives</span></code> and <code class="docutils literal notranslate"><span class="pre">materials</span></code> for each of the topics we’ll discuss during this session.</p>
-<div class="section" id="computing-environments">
-<h3>Computing environments<a class="headerlink" href="#computing-environments" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h3>Computing environments<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <p>You might think: “why do we have to talk about computing environments &amp; reproducibility just to code?”.
 Fair enough but as hinted at during the introduction, knowing a bit more about this thing called the “computer” and how your code is run will be tremendously helpful later on. The sooner you can utilize the respective tools/resources the better, as quite a bit, actually all, of your coding will depend on it. We usually trust our machines to do what we ask them to do and while quite often we get the desired output, there’s a fair chance that the same task will lead to a different outcome on a different OS, using a different version, etc. . However, what outcomes do we “trust” and why does it converge? All of this relates to “reproducibility” and within this section we’ll briefly explore underlying problems and potential (partial) solutions via <code class="docutils literal notranslate"><span class="pre">python</span></code>.</p>
 <div class="section" id="objectives">
