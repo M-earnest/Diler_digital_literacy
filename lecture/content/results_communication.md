@@ -1,4 +1,4 @@
-# Results communication
+# Results & communication
 
 ## Lecture/Practice 9 - Visualization of results
 

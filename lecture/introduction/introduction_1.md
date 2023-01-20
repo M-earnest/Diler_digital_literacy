@@ -1,4 +1,4 @@
-# Introduction II
+# Introduction I
 
 Within the first session we'll spend a fair amount of time on talking about the structure, content, goal and implementation of the course to hopefully answer most of your questions and set the stage for the subsequent meetings! This will also entail an introduction section to get to know the folks around you. Additionally, we'll have an `installation party` where we'll will hang out and install the software required for this course together, if that has not already happened and solve potential problems/hardships you've faced with the installation process.
 
