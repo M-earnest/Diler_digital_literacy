@@ -16,16 +16,21 @@ chapters:
 - file: content/skills.md
   sections:
   - file: content/command_line.md
+    sections:
     - file: content/intro_to_shell.ipynb
     - file: content/intro_to_git_and_github.ipynb
   - file: content/computing_environments.md
   - file: content/jupyter_notebooks_in_edu.md
+    sections:
     - file: content/intro_jupyter_I.ipynb
   - file: content/intro_python_I.md
+    sections:
     - file: content/intro_python_I.ipynb
   - file: content/intro_python_II.md
+    sections:
     - file: content/intro_python_II.ipynb
   - file: content/intro_python_III.md
+    sections:
     - file: content/intro_python_III.ipynb
   - file: content/results_communication.md
 - file: advanced/advanced.md
