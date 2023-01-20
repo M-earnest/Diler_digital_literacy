@@ -1,4 +1,4 @@
-# Introduction VII
+# Intro Python III
 
 Within the seventh session we'll continue to explore the basic building blocks of `python`, this and the next `session` will contain exhaustive content aiming to provide you with a somewhat detailed understanding of central `python` aspects. The aim is to get a good set of basic experience to then advance into more practical aspects, specifically evaluating how these things can be utilized within `experiments` to collect data and their subsequent `analyzes`. To nevertheless get some experience on the way, there will be some exercise at the beginning and throughout the session. Additionally, the `homework assignments` will be made in a way that showcases some tasks that you might most likely encounter in real-life so that you get more practice in conducting them through `python`.
 

@@ -1,4 +1,4 @@
-# Introduction V
+# Jupyter Notebooks
 
 Within the fourth session we'll finish the `virtualization` section, that is exploring one aspect that might seem adjacent to utilizing `python` within research workflows but is actually a crucial component: `computing environments`. Don't worry: this will also entail hands-on programming, just not directly in `python`. The things covered in this section will introduce central concepts for our subsequent endeavors in this session. More precisely, we'll explore `jupyter notebooks` as one form of interacting with your computer, specifically `python`. Getting a good hang of this will be important as most of our `python` endeavors will happen within `jupyter notebooks` and they are a staple in research workflows.
 
