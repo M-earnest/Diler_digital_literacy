@@ -1,4 +1,4 @@
-# Introduction III
+# Command-line-interfaces & BASH
 
 Now we'll start exploring this thing called "the computer" a bit more, specificall the crucial components of every research workflow: `CLIs/IDEs`  and `(bash) shell`. Don't worry: this will not only be dry theory but will also entail some hands-on programming. The things covered in this session will introduce central concepts for our subsequent endeavors.
 

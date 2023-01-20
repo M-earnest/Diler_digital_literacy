@@ -1,4 +1,4 @@
-# Introduction IV
+# Computing environments
 
 Within the third session we'll continue with the sections from last week, that is exploring this thing called "the computer" a bit more, specifically one aspect that might seem adjacent to utilizing `python` within research workflows but is actually a crucial component: `computing environments`. Don't worry: this will also entail hands-on programming, just not directly in `python`. The things covered in this session will introduce central concepts for our subsequent endeavors. For example, also the ones we will cover in the next session, that is `jupyter notebooks` as a prerequisite for our `python` endeavors.
 

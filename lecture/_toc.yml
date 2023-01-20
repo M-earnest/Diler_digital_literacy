@@ -24,13 +24,13 @@ chapters:
     - file: content/intro_jupyter_I.ipynb
   - file: content/intro_python_I.md
     sections:
-    - file: content/intro_python_I.ipynb
+    - file: content/intro_python_nb_I.ipynb
   - file: content/intro_python_II.md
     sections:
-    - file: content/intro_python_II.ipynb
+    - file: content/intro_python_nb_II.ipynb
   - file: content/intro_python_III.md
     sections:
-    - file: content/intro_python_III.ipynb
+    - file: content/intro_python_nb_III.ipynb
   - file: content/results_communication.md
 - file: advanced/advanced.md
   sections:
