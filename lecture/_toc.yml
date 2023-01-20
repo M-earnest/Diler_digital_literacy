@@ -18,7 +18,7 @@ chapters:
   - file: content/command_line.md
     sections:
     - file: content/intro_to_shell.ipynb
-    - file: content/intro_to_git_and_github.ipynb
+  - file: content/intro_to_git_and_github.ipynb
   - file: content/computing_environments.md
   - file: content/jupyter_notebooks_in_edu.md
     sections:
